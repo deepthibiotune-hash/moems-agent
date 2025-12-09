@@ -40,26 +40,13 @@ git clone <your-repo-url>
 cd moems_qa_agent
 ```
 
-### Step 2: Create Virtual Environment
+### Step 2: Run setup.sh. It creates the Virtual Environment and Installs all the required dependencies
 
 ```bash
-# Create virtual environment
-python3 -m venv venv
-
-# Activate it
-# On macOS/Linux:
-source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
+source setup.sh
 ```
 
-### Step 3: Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Configure LangSmith
+### Step 4: Configure LangSmith - Pl. ensure to copy your own api_key.
 
 ```bash
 # Copy environment template
