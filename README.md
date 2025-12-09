@@ -40,13 +40,13 @@ git clone <your-repo-url>
 cd moems_qa_agent
 ```
 
-### Step 2: Run setup.sh. It creates the Virtual Environment and Installs all the required dependencies
+### Step 2: Source setup.sh. It creates the Virtual Environment and installs all the required dependencies
 
 ```bash
 source setup.sh
 ```
 
-### Step 4: Configure LangSmith - Pl. ensure to copy your own api_key.
+### Step 4: Configure LangSmith. Please ensure to copy your own api_key.
 
 ```bash
 # Copy environment template
