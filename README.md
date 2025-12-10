@@ -1,4 +1,8 @@
-# MOEMS Q&A Agent - Setup Guide
+# MOEMS Q&A Agent
+
+A lightweight RAG-based agent that ingests MOEMS math olympiad material and provides accurate, retrieval-augmented answers.
+
+# Setup Guide
 
 Complete setup instructions for the MOEMS Q&A Agent project.
 
