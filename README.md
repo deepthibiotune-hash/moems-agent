@@ -31,7 +31,7 @@ moems_qa_agent/
     └── test_agent.py       # Test suite
 ```
 
-## 🚀 Quick Setup (5 minutes)
+## 🚀 Quick Setup (3 minutes)
 
 ### Step 1: Clone and Navigate
 
@@ -40,13 +40,7 @@ git clone <your-repo-url>
 cd moems_qa_agent
 ```
 
-### Step 2: Source setup.sh. It creates the Virtual Environment and installs all the required dependencies
-
-```bash
-source setup.sh
-```
-
-### Step 4: Configure LangSmith. Please ensure to copy your own api_key.
+### Step 2: Configure LangSmith. Please ensure to copy your own api_key.
 
 ```bash
 # Copy environment template
@@ -63,7 +57,13 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_PROJECT=moems-qa-agent
 ```
 
-### Step 5: Verify Setup
+### Step 3: Source setup.sh. It creates the Virtual Environment and installs all the required dependencies
+
+```bash
+source setup.sh
+```
+
+### Step 4: Verify Setup
 
 ```bash
 # Test the agent
